@@ -21,7 +21,8 @@ class ReservationTest {
 
         Reservation rs = new Reservation(sDate, eDate, g, rt);
 
-        // assertEquals(sDate, rs);
+        // works? but why
+        assertEquals(sDate, rs.start);
 
     }
 }
