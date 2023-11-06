@@ -26,8 +26,6 @@ public class Reservation {
         }
     }
 
-
-
     // The following fields are assigned when the guest checks in
     Room room = null;
     Folio folio = null;
